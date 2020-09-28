@@ -14,6 +14,7 @@
   width: 100%;
   // TODO: change to proper value
   height: 32px;
+  z-index: 2;
 
   @include breakpoint('md') {
     top: 60px;

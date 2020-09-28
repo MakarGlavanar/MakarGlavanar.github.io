@@ -10,6 +10,7 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 
   @include breakpoint('md') {
     bottom: 60px;
