@@ -33,16 +33,10 @@ footer, header, hgroup, menu, nav, section {
 
 html, body {
   outline: none;
-  cursor: none;
-
-  @supports not (mix-blend-mode: difference) {
-    cursor: auto;
-  }
 }
 
 body {
 	line-height: 1;
-  background: white;
 }
 ol, ul {
 	list-style: none;

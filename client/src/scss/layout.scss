@@ -1,0 +1,7 @@
+@import "~@scss/variables";
+
+:global {
+  body {
+    background: map-get($colros, c-brand-secondary);
+  }
+}

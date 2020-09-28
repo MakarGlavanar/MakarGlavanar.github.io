@@ -28,3 +28,5 @@ export const Logo: React.FC<ILogoProps> = ({ className }) => {
     </svg>
   );
 };
+
+Logo.displayName = "Logo";

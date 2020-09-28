@@ -1,0 +1,21 @@
+@import "~@scss/variables";
+
+.ContactButton {
+  flex-shrink: 0;
+  padding: map-get($offsets, sm-l) map-get($offsets, md-l);
+  font-family: map-get($typography, label);
+  font-size: 24px;
+  border-radius: 60px;
+  border: 2px solid map-get($colros, c-brand-primary);
+  color: map-get($colros, c-typo-primary);
+  background-color: transparent;
+
+  transition: all .15s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    
+    color: map-get($colros, c-typo-secondary);
+    background-color: map-get($colros, c-brand-primary);
+  }
+}
