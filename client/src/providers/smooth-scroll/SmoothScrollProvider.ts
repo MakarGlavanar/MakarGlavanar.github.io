@@ -11,7 +11,7 @@ export class SmoothScrollProvider implements IProvder<ISmoothScrollState> {
 
   public constructor() {
     this.subject = new Subject({ scrollTop: 0 });
-    this.atm = 0.06;
+    this.atm = 0.8;
     this.requestedScrollTop = 0;
 
     this.calculateScrollTop = this.calculateScrollTop.bind(this);
