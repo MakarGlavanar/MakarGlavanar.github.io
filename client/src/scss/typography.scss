@@ -1,16 +1,14 @@
 @import "~@scss/variables";
 
 :global {
-  .t-hero {
+  .t-h1 {
     font-family: map-get($typography, h1);
-    font-size: 120px;
-    letter-spacing: 0.2;
+    letter-spacing: 0.2rem;
   }
 
   .t-heading {
     font-family: map-get($typography, heading);
-    font-size: 60px;
-    letter-spacing: 0.2;
+    letter-spacing: 0.2rem;
   }
 
   .t-label {
