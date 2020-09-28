@@ -14,7 +14,8 @@
       "@utils/*": ["src/utils/*"],
       "@services/*": ["src/services/*"],
       "@assets/*": ["src/assets/*"],
-      "@scss/*": ["src/scss/*"]
+      "@scss/*": ["src/scss/*"],
+      "@types/*": ["src/types/*"]
     }
   }
 }
