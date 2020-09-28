@@ -24,4 +24,8 @@ module.exports = {
     },
     "import/resolver": "webpack",
   },
+  rules: {
+    "react/prop-types": 0,
+    "@typescript-eslint/interface-name-prefix": 0,
+  }
 };
