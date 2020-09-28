@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Risen Sun Website",
   "scripts": {
+    "deploy": "gh-pages -d ../dist",
+    "deploy:debug": "NODE_DEBUG=gh-pages npm run deploy",
     "start": "mode=development webpack-dev-server --host=0.0.0.0",
     "serve": "mode=development webpack-dev-server --host=0.0.0.0 --useLocalIp",
     "build": "mode=production webpack",
@@ -52,6 +54,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.5.0",
     "mini-css-extract-plugin": "^0.11.2",
     "node-sass": "^4.14.1",
