@@ -4,4 +4,8 @@
   body {
     background: map-get($colros, c-brand-secondary);
   }
+
+  #root {
+    height: 100%;
+  }
 }

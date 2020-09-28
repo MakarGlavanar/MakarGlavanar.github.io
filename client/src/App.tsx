@@ -1,14 +1,10 @@
 import * as React from "react";
-import { Header } from "@components/common/header";
+import { LandingPage } from "@pages/landing";
 
 export interface IAppProps {}
 
 export const App: React.FC<IAppProps> = () => {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
+  return <LandingPage />;
 };
 
 App.displayName = "App";
