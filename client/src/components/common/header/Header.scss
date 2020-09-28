@@ -2,6 +2,8 @@
 @import "~@scss/helpers";
 
 .Header {
+  @include container();
+
   position: fixed;
   // TODO: change to proper value
   top: 10px;
