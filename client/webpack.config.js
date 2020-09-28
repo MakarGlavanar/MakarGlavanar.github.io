@@ -31,6 +31,7 @@ module.exports = {
       "@utils": path.resolve(__dirname, "src/utils/"),
       "@scss": path.resolve(__dirname, "src/scss/"),
       "@assets": path.resolve(__dirname, "src/assets/"),
+      "@types": path.resolve(__dirname, "src/types/"),
     },
     extensions: [".ts", ".tsx", ".js", ".jsx"],
   },
