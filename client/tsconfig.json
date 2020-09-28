@@ -15,7 +15,9 @@
       "@services/*": ["src/services/*"],
       "@assets/*": ["src/assets/*"],
       "@scss/*": ["src/scss/*"],
-      "@types/*": ["src/types/*"]
+      "@types/*": ["src/types/*"],
+      "@registry/*": ["src/registry/*"],
+      "@providers/*": ["src/providers/*"],
     }
   }
 }
