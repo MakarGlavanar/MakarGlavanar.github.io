@@ -1,0 +1,22 @@
+@import "~@scss/variables";
+@import "~@scss/helpers";
+
+.Footer {
+  @include container();
+  
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  @include breakpoint('md') {
+    bottom: 60px;
+  }
+
+  &__item {
+    font-size: 32px;
+    color: map-get($colros, c-typo-primary);
+  }
+}
