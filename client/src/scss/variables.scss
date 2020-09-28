@@ -1,0 +1,30 @@
+$colros: (
+  c-brand-primary: #FDD20E,
+  c-brand-secondary: #000000,
+  c-typo-primary: #FFFFFF,
+);
+
+$offsets: (
+  sm-s: 4px,
+  sm-m: 8px,
+  sm-l: 16px,
+  md-s: 24px,
+  md-m: 32px,
+  md-l: 40px,
+);
+
+$container-widths: (
+  xs: 100%,
+  sm: 544px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1600px,
+);
+
+$typography: (
+  h1: 'HelveticaNeu-Bold',
+  heading: 'HelveticaNeu-Bold',
+  label: 'JetBrainsMono-Medium',
+  common: 'JetBrainsMono-Regular'
+);

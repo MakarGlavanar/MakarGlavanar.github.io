@@ -1,0 +1,13 @@
+@import "~@scss/variables";
+
+.t-hero {
+  font-family: map-get($typography, h1);
+  font-size: 120px;
+  letter-spacing: .2;
+}
+
+.t-heading {
+  font-family: map-get($typography, heading);
+  font-size: 60px;
+  letter-spacing: .2;
+}
