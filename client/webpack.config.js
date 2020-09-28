@@ -18,7 +18,7 @@ module.exports = {
   },
   entry: ["@babel/polyfill", "./src/index.tsx"],
   output: {
-    path: path.join(__dirname, "dist"),
+    path: path.join(__dirname, "../dist"),
     filename: isDevelopment ? "[name].js" : "[name].[contenthash].js",
     chunkFilename: isDevelopment
       ? "[name].bundle.js"
