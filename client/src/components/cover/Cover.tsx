@@ -16,7 +16,11 @@ export class Cover extends React.Component<ICoverProps> {
             tag="h1"
             preset={TypographyPreset.H1}
           >
-            Брендинг{"\n"}сервисы{"\n"}сайты
+            Брендинг
+            {"\n"}
+            <span className={styles.Cover__colored}>сервисы</span>
+            {"\n"}
+            сайты
           </Typography>
           <Typography
             className={styles.Cover__aim}

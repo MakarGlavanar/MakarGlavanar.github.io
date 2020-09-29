@@ -39,4 +39,8 @@
       font-size: 40px;
     }
   }
+
+  &__colored {
+    color: map-get($colors, c-brand-primary);
+  }
 }
