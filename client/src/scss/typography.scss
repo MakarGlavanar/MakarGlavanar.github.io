@@ -1,0 +1,21 @@
+@import "~@scss/variables";
+
+:global {
+  .t-h1 {
+    font-family: map-get($typography, h1);
+    letter-spacing: 0.2rem;
+  }
+
+  .t-heading {
+    font-family: map-get($typography, heading);
+    letter-spacing: 0.2rem;
+  }
+
+  .t-label {
+    font-family: map-get($typography, label);
+  }
+
+  .t-common {
+    font-family: map-get($typography, common);
+  }
+}

@@ -1,0 +1,8 @@
+@import "~@scss/variables";
+@import "~@scss/helpers";
+
+.Page {
+  @include container();
+
+  height: 100%;
+}

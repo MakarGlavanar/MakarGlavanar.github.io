@@ -1,0 +1,38 @@
+@import "~@scss/variables";
+@import "~@scss/helpers";
+
+.Team {
+  @include container;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 100vh;
+  // padding-top: map-get($offsets, md-l);
+
+  &__content {
+    width: 100%;
+  }
+
+  &__title {
+    margin-bottom: 100px;
+    color: map-get($colors, c-typo-primary);
+
+    @include breakpoint("md") {
+      font-size: 60px;
+    }
+  }
+
+  &__members {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    width: 100%;
+  }
+
+  &__members:first-of-type {
+    margin-bottom: 60px;
+  }
+}

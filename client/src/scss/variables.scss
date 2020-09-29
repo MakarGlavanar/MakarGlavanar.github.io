@@ -1,0 +1,39 @@
+$colors: (
+  c-brand-primary: #FDD20E,
+  c-brand-secondary: #000000,
+  c-typo-primary: #FFFFFF,
+  c-typo-secondary: #000000,
+);
+
+$offsets: (
+  sm-s: 4px,
+  sm-m: 8px,
+  sm-l: 12px,
+  md-s: 16px,
+  md-m: 20px,
+  md-l: 24px,
+);
+
+$container-widths: (
+  xs: 100%,
+  sm: 544px,
+  md: 888px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1520px,
+);
+
+$breakpoints: (
+  sm: 576px,
+  md: 900px,
+  lg: 1280px,
+  xl: 1400px,
+  xxl: 1600px,
+);
+
+$typography: (
+  h1: 'HelveticaNeu-Bold',
+  heading: 'HelveticaNeu-Bold',
+  label: 'JetBrainsMono-Medium',
+  common: 'JetBrainsMono-Regular'
+);

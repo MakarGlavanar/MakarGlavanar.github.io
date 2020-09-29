@@ -1,0 +1,11 @@
+@import "~@scss/variables";
+
+:global {
+  body {
+    background: map-get($colors, c-brand-secondary);
+  }
+
+  #root {
+    height: 100%;
+  }
+}

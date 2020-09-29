@@ -18,7 +18,7 @@ module.exports = {
   },
   entry: ["@babel/polyfill", "./src/index.tsx"],
   output: {
-    path: path.join(__dirname, "dist"),
+    path: path.join(__dirname, "../dist"),
     filename: isDevelopment ? "[name].js" : "[name].[contenthash].js",
     chunkFilename: isDevelopment
       ? "[name].bundle.js"
@@ -31,6 +31,9 @@ module.exports = {
       "@utils": path.resolve(__dirname, "src/utils/"),
       "@scss": path.resolve(__dirname, "src/scss/"),
       "@assets": path.resolve(__dirname, "src/assets/"),
+      "@types": path.resolve(__dirname, "src/types/"),
+      "@registry": path.resolve(__dirname, "src/registry/"),
+      "@providers": path.resolve(__dirname, "src/providers/"),
     },
     extensions: [".ts", ".tsx", ".js", ".jsx"],
   },

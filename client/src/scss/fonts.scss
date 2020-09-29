@@ -1,0 +1,21 @@
+// TODO: find eot, ttf, woff, and woff2
+@font-face {
+  font-family: 'HelveticaNeu-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url("~@assets/fonts/HelveticaNeu-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'JetBrainsMono-Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: url("~@assets/fonts/JetBrainsMono-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'JetBrainsMono-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("~@assets/fonts/JetBrainsMono-Regular.woff") format("woff");
+}

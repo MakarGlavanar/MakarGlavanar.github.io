@@ -1,0 +1,23 @@
+@import "~@scss/variables";
+@import "~@scss/helpers";
+
+.Header {
+  @include container();
+
+  position: fixed;
+  // TODO: change to proper value
+  top: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  // TODO: change to proper value
+  height: 32px;
+  z-index: 3;
+
+  @include breakpoint('md') {
+    top: 16px;
+    height: 54px;
+  }
+}

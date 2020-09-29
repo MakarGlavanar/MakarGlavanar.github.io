@@ -1,0 +1,43 @@
+@import "~@scss/variables";
+
+@mixin breakpoint($breakpoint) {
+  @if $breakpoint == "" {
+    @content;
+  }
+
+  @else {
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    @if $breakpoint-value != null {
+      @media (min-width: $breakpoint-value) {
+        @content;
+      }
+    }
+  }
+}
+
+@mixin container {
+  width: calc(100% - map-get($offsets, sm-l));
+  margin-right: auto;
+  margin-left: auto;
+
+  @include breakpoint('sm') {
+    width: map-get($container-widths, sm);
+  }
+
+  @include breakpoint('md') {
+    width: map-get($container-widths, md);
+  }
+
+  @include breakpoint('lg') {
+    width: map-get($container-widths, lg);
+  }
+
+  @include breakpoint('xl') {
+    width: map-get($container-widths, xl);
+  }
+
+  @include breakpoint('xxl') {
+    width: map-get($container-widths, xxl);
+  }
+}
