@@ -10,14 +10,14 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  z-index: 2;
+  z-index: 3;
 
   @include breakpoint('md') {
-    bottom: 60px;
+    bottom: 16px;
   }
 
   &__item {
     font-size: 32px;
-    color: map-get($colros, c-typo-primary);
+    color: map-get($colors, c-typo-primary);
   }
 }

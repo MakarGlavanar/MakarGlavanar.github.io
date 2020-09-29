@@ -70,7 +70,10 @@ export class VideoBackground extends React.Component<IVideoBackgroundProps> {
       (value.scrollTop * this.blobs.length) / scrollHeight
     );
 
-    if (this.prevBlobIndex !== this.currentBlobIndex) {
+    if (
+      this.prevBlobIndex !== this.currentBlobIndex &&
+      this.currentBlobIndex < this.blobs.length
+    ) {
       this.renderBlobToCanvas(this.blobs[this.currentBlobIndex]);
     }
   }

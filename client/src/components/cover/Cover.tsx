@@ -9,27 +9,25 @@ export interface ICoverProps {}
 export class Cover extends React.Component<ICoverProps> {
   public render(): JSX.Element {
     return (
-      <>
-        <div className={styles.Cover}>
-          <div className={styles.Cover__content}>
-            <Typography
-              className={styles.Cover__title}
-              tag="h1"
-              preset={TypographyPreset.H1}
-            >
-              Брендинг{"\n"}сервисы{"\n"}сайты
-            </Typography>
-            <Typography
-              className={styles.Cover__aim}
-              tag="p"
-              preset={TypographyPreset.Label}
-            >
-              для бизнесов{"\n"}и стартапов
-            </Typography>
-          </div>
+      <div className={styles.Cover}>
+        <div className={styles.Cover__content}>
+          <Typography
+            className={styles.Cover__title}
+            tag="h1"
+            preset={TypographyPreset.H1}
+          >
+            Брендинг{"\n"}сервисы{"\n"}сайты
+          </Typography>
+          <Typography
+            className={styles.Cover__aim}
+            tag="p"
+            preset={TypographyPreset.Label}
+          >
+            для бизнесов{"\n"}и стартапов
+          </Typography>
+          <VideoBackground scrollHeight={window.innerHeight} />
         </div>
-        <VideoBackground scrollHeight={window.innerHeight} />
-      </>
+      </div>
     );
   }
 }
