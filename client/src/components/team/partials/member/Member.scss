@@ -1,0 +1,47 @@
+@import "~@scss/variables";
+@import "~@scss/helpers";
+
+.Member {
+  $width: 240px;
+
+  flex-shrink: 0;
+
+  @include breakpoint('md') {
+    width: $width;
+  }
+
+  &__avatarFrame {
+    width: $width * 0.6;
+    height: $width * 0.6;
+    margin: 0 auto map-get($offsets, md-l);
+    border-radius: 100%;
+    border: 2px solid map-get($colors, c-brand-primary);
+    overflow: hidden;
+
+    object-fit: cover;
+  }
+
+  &__avatar {
+    width: 100%;
+  }
+
+  &__name,
+  &__position {
+    color: map-get($colors, c-typo-primary);
+    text-align: center;
+  }
+
+
+  &__name {
+    @include breakpoint('md') {
+      margin-bottom: map-get($offsets, sm-l);
+      font-size: 40px;
+    }
+  }
+
+  &__position {
+    @include breakpoint('md') {
+      font-size: 20px;
+    }
+  }
+}

@@ -19,9 +19,11 @@
 
   &__title,
   &__aim {
+    position: relative;
     max-width: 574px;
-    color: map-get($colros, c-typo-primary);
+    color: map-get($colors, c-typo-primary);
     white-space: pre;
+    z-index: 2;
   }
 
   &__title {
